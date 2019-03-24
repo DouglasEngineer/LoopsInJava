@@ -57,11 +57,10 @@ public class JavaLoops {
         }
 
         System.out.println("You will pay off this loan in " + months);
-        
+
         //Below we will do a forloop to print all odd numbers between 1-100;
-        
-        for(int i = 0; i<=100; i++){
-            if(i%2 != 0){
+        for (int i = 0; i <= 100; i++) {
+            if (i % 2 != 0) {
                 System.out.println(i + " is odd.");
             }
         }
